@@ -137,12 +137,13 @@
                 if(enteredEmail.match(mailformat))
                 {
                 //alert("Valid email address!");
+                document.getElementById("emailInput").classList.remove("error")
                 console.log("valid email", enteredEmail)
                 return true;
                 }
                 else
                 {
-                document.getElementById("emailInput").classList.add("error");
+                document.getElementById("emailInput").classList.add("error")
                 console.log("invalid email", savedEmail, val)
                 return false;
                 }
