@@ -2,9 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.contactFormContainer form .error {
-  border: red solid 1px;
-}
+
 
 /* Style the tab */
 .tab {
@@ -163,4 +161,12 @@ body {
 .contactFormContainer button:hover {
   -webkit-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contactFormContainer form .error {
+  border: red solid 1px;
+}
+
+.contactFormContainer form .error:focus {
+  border: red solid 1px;
 }
